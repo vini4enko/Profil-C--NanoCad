@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUtils", "Utils\NUtils.csproj", "{8D35C965-9B4C-4F2E-8083-D66B8CADB54B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "profil", "profil6-1\profil.csproj", "{34BA7B38-0448-4CC6-9802-A0177D426A2A}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "nCad", "..\..\Program Files\Nanosoft\nanoCAD x64 24.0\nCad.exe", "{0408D789-D72C-4E0F-B6AA-D06A49437CE4}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Program Files\Nanosoft\nanoCAD x64 24.0\nCad.exe
+		RemoteMachine = WIN-PROGRAMMING
+		StartingDirectory = C:\Program Files\Nanosoft\nanoCAD x64 24.0
+		Environment = По умолчанию
+		LaunchingEngine = 2e36f1d4-b23c-435d-ab41-18e608940038
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D35C965-9B4C-4F2E-8083-D66B8CADB54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D35C965-9B4C-4F2E-8083-D66B8CADB54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D35C965-9B4C-4F2E-8083-D66B8CADB54B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8D35C965-9B4C-4F2E-8083-D66B8CADB54B}.Debug|x64.Build.0 = Debug|Any CPU
+		{8D35C965-9B4C-4F2E-8083-D66B8CADB54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D35C965-9B4C-4F2E-8083-D66B8CADB54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D35C965-9B4C-4F2E-8083-D66B8CADB54B}.Release|x64.ActiveCfg = Release|Any CPU
+		{8D35C965-9B4C-4F2E-8083-D66B8CADB54B}.Release|x64.Build.0 = Release|Any CPU
+		{34BA7B38-0448-4CC6-9802-A0177D426A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BA7B38-0448-4CC6-9802-A0177D426A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BA7B38-0448-4CC6-9802-A0177D426A2A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{34BA7B38-0448-4CC6-9802-A0177D426A2A}.Debug|x64.Build.0 = Debug|Any CPU
+		{34BA7B38-0448-4CC6-9802-A0177D426A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BA7B38-0448-4CC6-9802-A0177D426A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BA7B38-0448-4CC6-9802-A0177D426A2A}.Release|x64.ActiveCfg = Release|Any CPU
+		{34BA7B38-0448-4CC6-9802-A0177D426A2A}.Release|x64.Build.0 = Release|Any CPU
+		{0408D789-D72C-4E0F-B6AA-D06A49437CE4}.Debug|Any CPU.ActiveCfg = Release|x64
+		{0408D789-D72C-4E0F-B6AA-D06A49437CE4}.Debug|x64.ActiveCfg = Release|x64
+		{0408D789-D72C-4E0F-B6AA-D06A49437CE4}.Release|Any CPU.ActiveCfg = Release|x64
+		{0408D789-D72C-4E0F-B6AA-D06A49437CE4}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {123A239B-AF4D-4990-B045-A8FA52911EF6}
+	EndGlobalSection
+EndGlobal
